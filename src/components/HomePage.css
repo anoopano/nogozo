@@ -1,0 +1,36 @@
+.homePage > p {
+  margin-left: 8%;
+  color: rgb(102, 100, 100);
+}
+
+.homePage__items {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 30px;
+  margin-left: 8%;
+}
+.homePage__items-link,
+.homePage__items-link :visited {
+  color: black;
+  text-decoration: none;
+}
+.homePage__items-item :hover {
+    transform: scale(1.02);
+}
+.homePage__items-item {
+  background-color: rgb(253, 253, 253);
+  border-radius: 5px;
+  margin: 8px;
+  cursor: pointer;
+  padding-bottom: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.homePage__items-item > img {
+  width: 200px;
+  height: 140px;
+  padding: 8px;
+}
+.homePage__items-item > p {
+  text-align: center;
+  font-weight: 700;
+}
