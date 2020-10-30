@@ -14,9 +14,10 @@
   color: black;
   text-decoration: none;
 }
-.homePage__items-item :hover {
-    transform: scale(1.02);
+.homePage__items :hover {
+  transform: scale(1.03);
 }
+
 .homePage__items-item {
   background-color: rgb(253, 253, 253);
   border-radius: 5px;

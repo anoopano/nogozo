@@ -7,19 +7,19 @@ import { Link, BrowserRouter as Router, Route } from 'react-router-dom';
 
 function Navbar() {
     return (
-        <div className="navbar">
+        <div className="header">
             <Link to="/">
-                <img className="navbar__logo" src={logo} alt="logo" />
+                <img className="header__logo" src={logo} alt="logo" />
             </Link>
-            <div className="navbar__input">
+            <div className="header__input">
                 <FaSistrix className="searchIcon" />
                 <input type="text" placeholder="Search Items" />
             </div>
-            <div className="navbar__icons">
+            <div className="header__icons">
                 <Link to="/checkout">
-                    <FaShoppingCart className="navbar__icons-icon" />
+                    <FaShoppingCart className="header__icons-icon" />
                 </Link>
-                <FaUser className="navbar__icons-icon" />
+                <FaUser className="header__icons-icon" />
             </div>
         </div>
     )

@@ -1,4 +1,4 @@
-.navbar {
+.header {
   background-color: rgb(21, 94, 153);
   display: flex;
   align-items: center;
@@ -6,12 +6,12 @@
   top: 0;
   z-index: 5;
 }
-.navbar__logo {
+.header__logo {
   width: 130px;
   padding: 15px 120px;
   cursor: pointer;
 }
-.navbar__input {
+.header__input {
   display: flex;
   align-items: center;
   background-color: white;
@@ -19,41 +19,41 @@
   width: 25%;
   border-radius: 1px;
 }
-.navbar__input .searchIcon {
+.header__input .searchIcon {
   padding: 0 8px;
 }
-.navbar__input > input {
+.header__input > input {
   border: none;
   outline: none;
   width: 100%;
   padding: 0 10px;
 }
-.navbar__icons {
+.header__icons {
   display: flex;
   margin-left: auto;
   margin-right: 100px;
 }
-.navbar__icons-icon {
+.header__icons-icon {
   padding: 0 20px;
   color: rgb(241, 231, 231);
 }
 @media screen and (max-width: 480px) {
-  .navbar {
+  .header {
       position: sticky;
       top: 0;
   }
-  .navbar__logo {
+  .header__logo {
     width: 90px;
     height: 40px;
     padding: 15px;
   }
-  .navbar__input {
+  .header__input {
     width: 120px;
   }
-  .navbar__icons{
+  .header__icons{
     margin-right: 40px;
   }
-  .navbar__icons-icon {
+  .headerr__icons-icon {
     padding: 0 10px;
   }
 }

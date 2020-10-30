@@ -1,0 +1,117 @@
+[
+    {
+        "name": "Shri Girraj Ji General Store",
+        "type": "groceries",
+        "location": "Sarla baghext"
+    },
+    {
+        "name": "Radhika departmental store",
+        "type": "groceries",
+        "location": "Jairam Bagh"
+    },
+    {
+        "name": "Grocers basket",
+        "type": "groceries",
+        "location": "Kabir Nagar"
+    },
+    {
+        "name": "Ma Durga Veg Shop",
+        "type": "veg",
+        "location": "Kabir Nagar"
+    },
+    {
+        "name": "Fruits Veggies Hub",
+        "type": "veg",
+        "location": "Kabir Nagar"
+    },
+    {
+        "name": "Koms n cakes",
+        "type": "food",
+        "location": "Kabir Nagar"
+    },
+    {
+        "name": "Dithonia Foods",
+        "type": "food",
+        "location": "Dayalbagh"
+    },
+    {
+        "name": "Gyani Dhaba",
+        "type": "food",
+        "location": "Kabir Nagar"
+    },
+    {
+        "name": "Punjabi Swag",
+        "type": "food",
+        "location": "Dayalbagh"
+    },
+    {
+        "name": "Anant Krishna Food",
+        "type": "food",
+        "location": "Dayalbagh"
+    },
+    {
+        "name": "Brijwasi Sweet House",
+        "type": "food",
+        "location": "Kabir Nagar"
+    },
+    {
+        "name": "Laxmi Shrinagar",
+        "type": "stationary",
+        "location": "NaglaPati"
+    },
+    {
+        "name": "Print House",
+        "type": "groceries",
+        "location": "Kabir Nagar"
+    },
+    {
+        "name": "Krish Collection",
+        "type": "fashion",
+        "location": "Kabir Nagar"
+    },
+    {
+        "name": "Gyani Dhaba",
+        "type": "fashion",
+        "location": "Kabir Nagar"
+    },
+    {
+        "name": "RS creation",
+        "type": "fashion",
+        "location": "Kabir Nagar"
+    },
+    {
+        "name": "Preeti House",
+        "type": "fashion",
+        "location": "Kamla Nagar"
+    },
+    {
+        "name": "Neeraj Electricals",
+        "type": "electronics",
+        "location": "Sarla Bagh"
+    },
+    {
+        "name": "Jai Bajrang Dairy",
+        "type": "dairy",
+        "location": "Pushpanjali road"
+    },
+    {
+        "name": "Koms n cake",
+        "type": "special",
+        "location": "Kabir Nagar"
+    },
+    {
+        "name": "Gyani Dhaba",
+        "type": "special",
+        "location": "Kabir Nagar"
+    },
+    {
+        "name": "Crafty_sides",
+        "type": "special",
+        "location": "Jairam Bagh"
+    },
+    {
+        "name": "Ladoo gopal",
+        "type": "special",
+        "location": "NaglaPati"
+    }
+]

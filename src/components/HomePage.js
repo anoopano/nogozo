@@ -5,18 +5,16 @@ import groceries from '../images/groceries.jpeg';
 import fashion from '../images/lifestyle.jpeg';
 import electronics from '../images/electronics.jpeg';
 import food from '../images/food.jpeg';
-import statinary from '../images/stationary.jpeg';
+import stationary from '../images/stationary.jpeg';
 import dairy from '../images/dairy.jpeg';
 import special from '../images/special.jpeg';
 import { Link } from 'react-router-dom';
-import { useState } from 'react';
 
-function HomePage() {
-    const [itemCategory, setItemCategory] = useState("");
+function HomePage({categorySetFn}) {
 
     const CATEGORIES = [
         {
-            ID: "vegetables",
+            ID: "veg",
             image: veg,
             description: "Fruits & Vegetables"
         },
@@ -32,8 +30,8 @@ function HomePage() {
         },
         {
             ID: "stationary",
-            image: statinary,
-            description: "Statinary & Books"
+            image: stationary,
+            description: "Stationary & Books"
         },
         {
             ID: "fashion",
@@ -51,22 +49,22 @@ function HomePage() {
             description: "Dairy products"
         },
         {
-            ID: "specials",
+            ID: "special",
             image: special,
             description: "Nogozo Specials"
         }
     ]
 
-    function categorySetFn(item) {
-        setItemCategory(item)
-    }
+    
     return (
         <div className="homePage">
             <p>India's First Local Market E-Commerce Company.</p>
             <div className="homePage__items">
                 {
                     CATEGORIES.map(category => (
-                        <Link className="homePage__items-link" to={`/category/${category.ID}`} onClick={() => categorySetFn(category.ID)}>
+                        <Link className="homePage__items-link"
+                            to={`/category/${category.ID}`}
+                            onClick={() => categorySetFn(category.ID)} >
                             <div className="homePage__items-item">
                                 <img src={category.image} alt={category.description} />
                                 <p>{category.description}</p>
