@@ -2,7 +2,7 @@ import React from 'react';
 import './Header.css';
 import logo from '../images/logo.png';
 import { FaSistrix, FaShoppingCart, FaUser } from 'react-icons/fa';
-import { Link, BrowserRouter as Router, Route } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 
 function Navbar() {
